@@ -1,0 +1,22 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.wrangler/
+.vercel/
+*.log
+.DS_Store
+
+# Supabase CLI local state: created by `supabase link` and `supabase start`. Never commit it.
+supabase/.temp/
+supabase/.branches/
+supabase/.env
+supabase/.env.*
+supabase/functions/.env
+supabase/functions/.env.*
+supabase/functions/**/.env
+
+# Tooling output
+coverage/
+*.tsbuildinfo
